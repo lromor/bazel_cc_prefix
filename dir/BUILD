@@ -1,4 +1,3 @@
-# Library is included as <dir/foo.h> across the codebase.
 cc_library(
     name = "foo",
     srcs = [
@@ -10,7 +9,7 @@ cc_library(
     visibility = ["//visibility:public"]
 )
 
-# Library is included as <dir/baz.h> across the codebase.
+# Library is included as <dir/bar.h> across the codebase.
 cc_library(
     name = "dir_headers",
     hdrs = ["bar.h"],
