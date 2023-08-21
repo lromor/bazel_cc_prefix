@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <dir/foo.h>
+#include <dir/bar.h>
 #include <ostream>
 
 int main() {
